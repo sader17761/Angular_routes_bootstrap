@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Routing Intro</title>
+    <script src="/vendors/angular.min.js" charset="utf-8"></script>
+    <script src="/vendors/angular-route.min.js" charset="utf-8"></script>
+    <script src="/scripts/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+  <body>
+    <main ng-app="routeApp">
+      <div ng-controller="DefaultController as dc">
+        <button ng-click="dc.go('/batman')">Batman</button>
+        <button ng-click="dc.go('/superman')">Superman</button>
+        <button ng-click="dc.go('/doctor')">Doctor</button>
+        <!-- <a href="#!/batman">Batman</a> -->
+        <ng-view>
+
+        </ng-view>
+      </div>
+    </main>
+  </body>
+</html>
