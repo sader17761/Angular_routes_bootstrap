@@ -13,6 +13,107 @@
 	color: purple;
 }
 
+.navbar-inverse{
+  height: 60px;
+}
+
+.omegaLogo {
+  margin-top: -7px !important;
+  height: 50px;
+}
+
+.navbar-nav {
+  padding-top: 7px !important;
+}
+
 #batman {
 	width: 400px;
+}
+
+.logoContainer{
+  width: 800px;
+  margin: 25px auto 0 auto;
+}
+
+.logoContainer img {
+  width: 600px;
+  margin-top: -10px;
+  padding-left: 190px;
+  opacity: 0.9;
+}
+
+.title h1 {
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -10px;
+  color: rgb(32, 32, 32);
+}
+
+.images {
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 6px 6px 10px #888888;
+}
+
+.omegaLogoLarge {
+  width: 100%;
+  opacity: 0.9;
+}
+
+.character {
+  margin-bottom: 50px;
+}
+
+.character img{
+
+}
+
+.character h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.character h5 {
+  text-align: center;
+  font-weight: 400;
+  color: rgb(153, 153, 153)
+}
+
+.legoBatman img{
+  width: 70%;
+  margin-right: 30%;
+  vertical-align: bottom;
+  padding-top: 1000px;
+}
+
+.legoSuperman img{
+  width: 50%;
+  margin-right: 50%;
+  vertical-align: bottom;
+  padding-top: 975px;
+}
+
+.legoHolmes img{
+  width: 50%;
+  margin-right: 50%;
+  vertical-align: bottom;
+  padding-top: 950px;
+}
+
+footer {
+  height: 40px;
+  padding-top: 12px;
+  text-align: center;
+  color: rgb(145, 145, 145);
+  font-weight: 200;
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222222, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
